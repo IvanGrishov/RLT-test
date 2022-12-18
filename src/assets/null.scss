@@ -23,6 +23,7 @@ input,
 button,
 textarea {
 	font-size: inherit;
+    outline: none;
 }
 input::-ms-clear {
 	display: none;

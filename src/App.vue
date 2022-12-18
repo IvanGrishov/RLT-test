@@ -25,10 +25,14 @@ export default {
         --dark-color: #1E1E1E;
         --secondary-color: #262626;
         --white-color: #fff;
+        --warning-color: #FA7272;
+        --muted-color: #4D4D4D;
 
         --green-color: #7FAA65;
         --orange-color: #AA9765;
         --violet-color: #656CAA;
+
+        --transition: .2s;
     }
     #app {
         display: flex;
@@ -52,7 +56,8 @@ export default {
         display: grid;
         grid-template-columns: 236px 525px;
         grid-gap: 0 24px;
-        height: 100%;
+        height: calc(100% + 2px);;
+        overflow: hidden;
     }
 
 
